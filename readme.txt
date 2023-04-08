@@ -18,7 +18,7 @@ Contains a set of R functions called by Rcode.R for handling endogenously select
 
 3. Outsample.exe
 Fortran application called by the R function fitsor() to estimate endogenously selected samples (aka Outcome-dependent samples)
-using  semiparametric odds ratio model. THIS APPLICATIONS HAS BEEN RECOMPLIED ON MARCH 2023 TO BE RUN ON NON-NATIVE WINDOWS COMPUTERS.  
+using  semiparametric odds ratio model. THIS APPLICATIONS HAS BEEN RECOMPLIED ON MARCH 2023 TO RUN ON NON-NATIVE WINDOWS COMPUTERS.  
 
 4. libiomp5md.dll
 The DLL library used by the IMSL numeric library for the Fortran Application. This DLL enables the Fortran application to run on computers that do not have
